@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up | Akame</title>
+    <link rel="icon" href="images/Akame/Sciccor-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <main>
+        <a href="/index.html" id="first">skip</a>
+        <form action="">
+            <h1>Sign up</h1>
+            <table border="0">
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" id="name" name="name" autofocus required autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="userNameError"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phoneNumber">Phone number</label></td>
+                    <td><input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="emailPhoneError"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" id="password" required></td>
+                </tr>
+                <tr>
+                    <td><label for="confirmPassword">Confirm password</label></td>
+                    <td><input type="password" id="confirmPassword" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="passwordError"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox" id="checkbox" onclick="show_password()"> Show password</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Register" id="submitButton">
+                        <input type="reset" value="Clear">
+                    </td>
+                </tr>
+            </table>
+            <h3>Already existing customer ? <a href="login.html">Log in</a></h3>
+        </form>
+    </main>
+
+
+    <script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255,255,255);
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+form{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+form table{
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    font-size: 17px;
+    /* table-layout: fixed; */
+}
+input[type="tel"],
+input[type="password"],
+input[type="text"]{
+    height: 30px;
+    width: 220px;
+    padding-left: 10px;
+    font-size: 17px;
+    /* font-weight: bold; */
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+form table tr:nth-child(5) td{
+    padding-left: 75px;
+}
+#phoneNumberError,
+#passwordError{
+    text-align: right;
+    padding-right: 15px;
+    font-size: 13px;
+    color: red;
+}
+input[type="submit"],
+input[type="reset"]{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+}
+#first{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+a:hover,
+#first:hover{
+    color: red;
+}
+h3{
+    font-weight: 500;
+}
+input[type=submit]{
+    background-color: rgb(51, 231, 51);
+}
+input[type=reset]{
+    background-color: rgb(106, 106, 243);
+}
+input[type=submit]:hover{
+    background-color: rgb(21, 148, 21);
+}
+input[type=reset]:hover{
+    background-color: rgb(50, 50, 209);
+}

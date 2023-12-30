@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Akame</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="images/Akame/Sciccor-favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <a href="/index.html" id="first">skip</a>
+        <form action="">
+            <h1>Login</h1>
+            <table border="0">
+                <tr>
+                    <td><label for="phoneNumber">Phone number</label></td>
+                    <td><input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" autofocus></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="phoneNumberError"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" id="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="passwordError"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox" id="checkbox" onclick="show_password()"> Show password</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Login" id="submitButton">
+                        <input type="reset" value="Clear" id="resetButton">
+                    </td>
+                </tr>
+            </table>
+                <h3>New User? <a href="signup.html">Signup</a></h3>
+        </form>
+    </main>
+
+
+    <script src="login.js"></script>
+</body>
+</html>
