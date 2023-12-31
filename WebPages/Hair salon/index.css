@@ -650,7 +650,7 @@ header .end-header a button:hover{
     justify-content: center;
 }
 .bar-section .main-bar{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80vw;
     display: flex;
     position: relative;
