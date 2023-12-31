@@ -650,6 +650,8 @@ header .end-header a button:hover{
     justify-content: center;
 }
 .bar-section .main-bar{
+    border: 2px solid red;
+    width: 80vw;
     display: flex;
     position: relative;
     justify-content: center;
@@ -695,7 +697,7 @@ header .end-header a button:hover{
     max-height: 0px;
     overflow: hidden;
     position: absolute;
-    width: 100vw;
+    width: 1000px;
     top: 120px;
     left: 52px;
     transition: 0.5s;
