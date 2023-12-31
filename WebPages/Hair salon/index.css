@@ -695,7 +695,7 @@ header .end-header a button:hover{
     max-height: 0px;
     overflow: hidden;
     position: absolute;
-    width: 1000px;
+    width: 100vw;
     top: 120px;
     left: 52px;
     transition: 0.5s;
