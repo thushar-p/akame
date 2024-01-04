@@ -1259,17 +1259,17 @@ footer .mid-foot{
 .mid-foot aside a i:hover{
     background-color: rgb(203,191,134);
 }
-.mid-foot aside a .fa-facebook-f{
-    background-color: rgb(66,103,178);
+.mid-foot aside a .fa-github{
+    background-color: rgb(71, 71, 71);
 }
-.mid-foot aside a .fa-twitter{
+.mid-foot aside a .fa-behance{
     background-color: rgb(29,161,242);
 }
-.mid-foot aside a .fa-google-plus-g{
-    background-color: rgb(219, 74, 57);
+.mid-foot aside a .fa-linkedin{
+    background-color: rgb(93, 171, 223);
 }
 .mid-foot aside a .fa-instagram{
-    background-color: rgb(64,93,230);
+    background-color: rgb(236, 112, 181);
 }
 footer .right-foot{
     display: flex;
